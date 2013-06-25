@@ -12,12 +12,12 @@ Basic page structure:
 index.html  
 about.html  
 funding.html  
-projects/project-title/index.html
-shared-research.html
-tools.html
-data.html
-partners.html
-blog/
+projects/project-title/index.html  
+shared-research.html  
+tools.html  
+data.html  
+partners.html  
+blog/   
 
 
 
