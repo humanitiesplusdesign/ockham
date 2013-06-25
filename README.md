@@ -7,7 +7,7 @@ Beginning with Jekyll, Twitter Bootstrap, and GitHub we are building a static si
 
 
 
-Basic page structure:  
+####Basic page structure:  
 
 index.html  
 about.html  
@@ -18,6 +18,27 @@ tools.html
 data.html  
 partners.html  
 blog/   
+
+
+####Jekyll file structure: 
+
+_config.yml  
+
+_includes   
+
+_pages
+
+
+_posts
+
+>footer.html  
+>header.html  
+
+_layouts  
+>default.html
+>project-page.html
+>post.html
+
 
 
 
