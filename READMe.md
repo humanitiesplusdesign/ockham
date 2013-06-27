@@ -41,3 +41,13 @@ _layouts
 bootstrap
 
 index.md
+
+###Markdown Template
+---
+layout: default
+group: ???
+title: Template
+array:
+- img url
+---
+As long as this front-yaml leads the file, Jekyll will be able to utilize it for the site. As many images can be listed for a slideshow. Title will display at the top of the browser. Rest of file will contain markdown content.
