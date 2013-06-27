@@ -8,6 +8,7 @@ array:
   - <img src="https://stanford.box.com/shared/static/ukaj05c47kcob94th9v9.jpg" />
   - <img src="https://stanford.box.com/shared/static/fm1wkqcdujiwruemn7ge.jpg" />
   - <img src="https://stanford.box.com/shared/static/aospsvs1m8giohodae51.jpg" />
+  - <img src="https://stanford.box.com/shared/static/d2whqxq29wxgw1gfau8z.jpg" />
 ---
 
 ###Research Team
