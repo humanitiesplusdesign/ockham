@@ -3,6 +3,11 @@ layout: default
 group: casestudies
 
 title: Francesco Algarotti's Reverse Grand Tour
+array:
+  - <img src="https://stanford.box.com/shared/static/wuj2sfup0zz6qea50zp7.jpg" />
+  - <img src="https://stanford.box.com/shared/static/ukaj05c47kcob94th9v9.jpg" />
+  - <img src="https://stanford.box.com/shared/static/fm1wkqcdujiwruemn7ge.jpg" />
+  - <img src="https://stanford.box.com/shared/static/aospsvs1m8giohodae51.jpg" />
 ---
 
 ###Research Team
@@ -19,8 +24,3 @@ At the height of the eighteenth century, Francesco Algarotti (1712-64) was one o
 In 2010-11 Paula Findlen began to develop the databases of Algarotti’s travels and publications and Hannah Marcus initiated the database of his published letters and presented the preliminary results of her work at the Cini Foundation Workshop on “Mapping the Republic of Letters” in March 2011 and at UCLA in May 2011.  In 2011, after completing a doctoral dissertation examining Algarotti's travels and career through the lens of the networks he formed along the way, Cheryl Smeall joined the project and created the complete database of published letters, and enhanced the database of travel and publications.
 
 In 2012-13 Findlen and Smeall are collaborating with Nicole Coleman to develop three interrelated maps of Algarotti’s travels, publications, and letters.  This material will be made publicly available and be incorporated into Findlen’s and Smeall’s forthcoming publications on Algarotti.
-
-[algarotti 01]:https://stanford.box.com/shared/static/ukaj05c47kcob94th9v9.jpg
-[algarotti 02]:https://stanford.box.com/shared/static/wuj2sfup0zz6qea50zp7.jpg
-[algarotti 03]:https://stanford.box.com/shared/static/fm1wkqcdujiwruemn7ge.jpg
-[algarotti 04]:https://stanford.box.com/shared/static/aospsvs1m8giohodae51.jpg

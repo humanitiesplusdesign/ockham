@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+                <title>{{ page.title }}</title>
                 </head>
     <body>
         <script src="http://code.jquery.com/jquery.js"></script>
@@ -15,9 +16,12 @@
             </ol>
             <!-- Carousel items -->
             <div class="carousel-inner">
-                <div class="active item"><img src="https://stanford.box.com/shared/static/wuj2sfup0zz6qea50zp7.jpg" /></div>
-                <div class="item">…</div>
-                <div class="item">…</div>
+                {% for item in page.array limit:1 %}
+                <div class="active item">{{ item }}</div>
+                {% endfor %}
+                {% for item in page.array offset:1 %}
+                <div class="item">{{ item }}</div>
+                {% endfor %}
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
