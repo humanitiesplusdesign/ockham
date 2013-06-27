@@ -20,14 +20,13 @@ partners.html
 blog/   
 
 
-####Jekyll file structure: 
+####Jekyll file structure (within gh-pages branch): 
 
 _config.yml  
 
 _includes   
 
 _pages
-
 
 _posts
 
@@ -38,3 +37,7 @@ _layouts
 >default.html
 >project-page.html
 >post.html
+
+bootstrap
+
+index.md
