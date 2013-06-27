@@ -1,16 +1,16 @@
----  
-layout: page  
-group: casestudies  
+---
+layout: default
+group: casestudies
 
-title: Francesco Algarotti's Reverse Grand Tour: Travels, Publications, and Letters
----  
+title: Francesco Algarotti's Reverse Grand Tour
+---
 
 ###Research Team
 
 Paula Findlen (Lead)
 
-Cheryl Smeall  
-Hannah Marcus  
+Cheryl Smeall
+Hannah Marcus
 
 ###About the Project
 
