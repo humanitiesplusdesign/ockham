@@ -4,8 +4,8 @@ group: casestudies
 
 title: Francesco Algarotti's Reverse Grand Tour
 array:
-  - <img src="https://stanford.box.com/shared/static/wuj2sfup0zz6qea50zp7.jpg" />
   - <img src="https://stanford.box.com/shared/static/ukaj05c47kcob94th9v9.jpg" />
+  - <img src="https://stanford.box.com/shared/static/wuj2sfup0zz6qea50zp7.jpg" />
   - <img src="https://stanford.box.com/shared/static/fm1wkqcdujiwruemn7ge.jpg" />
   - <img src="https://stanford.box.com/shared/static/aospsvs1m8giohodae51.jpg" />
   - <img src="https://stanford.box.com/shared/static/d2whqxq29wxgw1gfau8z.jpg" />
@@ -15,7 +15,7 @@ array:
 
 Paula Findlen (Lead)
 
-Cheryl Smeall
+Cheryl Smeall  
 Hannah Marcus
 
 ###About the Project
