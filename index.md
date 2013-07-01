@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: slideshow
 group: casestudies
 
 title: Francesco Algarotti's Reverse Grand Tour
