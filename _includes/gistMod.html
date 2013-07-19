@@ -1,0 +1,10 @@
+<script>
+var gists = $('.markdown-body.js-file');
+for (var i = 0; i < gists.length; i++)
+{
+  var g = gists[i];
+
+  document.write(g.innerHTML);
+}
+$('.gist').remove();
+</script>

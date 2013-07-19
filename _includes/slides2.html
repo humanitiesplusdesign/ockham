@@ -1,0 +1,47 @@
+<style type="text/css">
+  .carousel {
+    margin-bottom: 50px;
+  }
+  .carousel .container {
+    position: relative;
+    z-index: 9;
+  }
+  #woo.carousel-control {
+    height: 50px;
+    margin-top: 0;
+    font-size: 120px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    background-color: red;
+    border: 0;
+    z-index: 10;
+  }
+  .carousel .item {
+    height: 700px;
+  }
+  .carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 700px;
+  }
+</style>  
+<div id="secCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        {% for item in page.array limit:1 %}
+            <div class="active item">{{ item }}</div>
+        {% endfor %}
+        {% for item in page.array offset:1 %}
+            <div class="item">{{ item }}</div>
+        {% endfor %}
+    </div>
+    <!-- Carousel nav -->
+    <a id="woo" class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a id="woo" class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
