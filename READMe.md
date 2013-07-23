@@ -16,7 +16,7 @@ projects/project-title/index.html
 shared-research.html  
 tools.html  
 data.html  
-partners.html  
+people.html  
 blog/   
 
 
