@@ -10,7 +10,7 @@ array:
   - <img src="https://stanford.box.com/shared/static/aospsvs1m8giohodae51.jpg" />
   - <img src="https://stanford.box.com/shared/static/d2whqxq29wxgw1gfau8z.jpg" />
 ---
-{% include wideslides.html %}
+
   
 {% include slides.html %}
 
