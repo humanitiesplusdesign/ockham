@@ -6,15 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
                 <title>{{ page.title }}</title>
+        {% include mapstyle.html %}
     </head>
     <body>
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-        
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?1.29.1"></script>
         {{content}}
-        <script src="https://gist.github.com/cncoleman/4923bc13f9a327c43c6b.js"></script>
         <script src="https://gist.github.com/mjgonz/989a2fbfb1414a5ce678.js"></script>
+        {% include gistDisect.html %}
         {% include gistMod.html %}
-
+        {% include dataParse.html %}        
     </body>
 </html>
