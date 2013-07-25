@@ -1,7 +1,6 @@
 ockham
-======
 
-Maggie is editing...
+
 
 Platform for publishing collaborative research in the humanities
 
