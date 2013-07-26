@@ -56,11 +56,11 @@ As long as this front-yaml leads the file, Jekyll will be able to utilize it for
 
 ###Page Breakdown
 
-#####Index Page
-navigation.html  
-slideshow.html   
-video.html
-images (inline)   ![image](http://media-cache-ak1.pinimg.com/736x/2a/6c/76/2a6c7604358e702db8484301a65c185b.jpg)
+#####Index Page 
+header (logo)
+navigation
+?
+footer
 
 #####About  
 Main links    
