@@ -60,7 +60,7 @@ As long as this front-yaml leads the file, Jekyll will be able to utilize it for
 navigation.html  
 slideshow.html   
 video.html
-images (inline)   [image](http://media-cache-ak1.pinimg.com/736x/2a/6c/76/2a6c7604358e702db8484301a65c185b.jpg)
+images (inline)   ![image](http://media-cache-ak1.pinimg.com/736x/2a/6c/76/2a6c7604358e702db8484301a65c185b.jpg)
 
 #####About  
 Main links    
