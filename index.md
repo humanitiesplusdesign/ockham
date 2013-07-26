@@ -2,7 +2,7 @@
 layout: default
 group: casestudies
 
-title: Francesco Algarotti's Reverse Grand Tour
+title: Building Ockham
 array:
   - <img src="https://stanford.box.com/shared/static/ukaj05c47kcob94th9v9.jpg" />
   - <img src="https://stanford.box.com/shared/static/wuj2sfup0zz6qea50zp7.jpg" />
