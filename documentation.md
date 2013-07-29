@@ -17,7 +17,7 @@ In a markdown content page.
 
         {% include your-slides.html %}
 
-3. And the slides.html should include this:
+3. And the slides.html should include this, where page.array is whatever you named the list of images above:
 
         <div id="myCarousel" class="carousel slide">
             <ol class="carousel-indicators">
