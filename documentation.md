@@ -16,5 +16,25 @@ In a markdown content page.
 
 2. Call the slideshow inline in the page.  
   
-`{% include your-slides.html %}`
+  `{% include your-slides.html %}`
 
+3. And the slides.html should include this:
+>`<div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+      {% for item in page.array limit:1 %}
+      <div class="active item">{{ item }}</div>
+      {% endfor %}
+      {% for item in page.array offset:1 %}
+      <div class="item">{{ item }}</div>
+      {% endfor %}
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+   </div>`
