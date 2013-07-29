@@ -38,3 +38,35 @@ In a markdown content page.
             <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
             <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
         </div>
+        
+4. Multiple slideshows can be included in 1 page, just needs multiple YAML variables in the front-matter with different names and multiple slide.htmls to call the different variable names.
+5. 1 style sheet can be utilized for every slideshow, or multiple can be used to have custom versions. An example of a general sheet would be:
+
+        <style type="text/css">
+           .carousel {
+            margin-bottom: 50px;
+          }
+          .carousel .container {
+            position: relative;
+            z-index: 9;
+          }
+          .carousel-control {
+            height: 50px;
+            margin-top: 0;
+            font-size: 120px;
+            text-shadow: 0 1px 1px rgba(0,0,0,.4);
+            background-color: gray;
+            border: 0;
+            z-index: 10;
+          }
+          .carousel .item {
+            height: 700px;
+          }
+          .carousel img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 700px;
+           }
+         </style>
