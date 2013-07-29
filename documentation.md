@@ -70,3 +70,4 @@ In a markdown content page.
             height: 700px;
            }
          </style>
+   Which would just need some more specific selectors to work on specific slideshows.
