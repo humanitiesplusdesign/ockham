@@ -63,6 +63,7 @@ task :page do
     post.puts "layout: page"
     post.puts "group: "
     post.puts "title: \"#{title}\""
+    post.puts "permalink: "
     post.puts 'description: ""'
     post.puts "---"
   end

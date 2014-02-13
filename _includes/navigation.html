@@ -1,0 +1,7 @@
+<nav role="navigation" id="site-nav" class="nav">
+      <ul>
+          {% for link in site.links %}
+            <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="{{ site.url }}{{ link.url }}" itemprop="url"><span itemprop="name">{{ link.title }}</span></a></li>
+          {% endfor %}
+      </ul>
+</nav>

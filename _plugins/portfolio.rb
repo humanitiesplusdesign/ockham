@@ -7,7 +7,7 @@ module Jekyll
       @name = "index.html"
 
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'portfolio.html')
+      self.read_yaml(File.join(base, '_layouts'), 'labs-projects.html')
       self.data['projects'] = self.get_projects(site)
     end
 
@@ -57,7 +57,7 @@ module Jekyll
     end
 
     def write_portfolio_index(site)
-      portfolio = PortfolioIndex.new(site, site.source, "/portfolio")
+      portfolio = PortfolioIndex.new(site, site.source, "/labs-projects")
       portfolio.render(site.layouts, site.site_payload)
       portfolio.write(site.dest)
 
@@ -66,7 +66,7 @@ module Jekyll
     end
 
     def write_project_index(site, path, name)
-      project = ProjectIndex.new(site, site.source, "/portfolio/#{name}", path)
+      project = ProjectIndex.new(site, site.source, "/labs-projects/#{name}", path)
 
       if project.data['published']
         project.render(site.layouts, site.site_payload)

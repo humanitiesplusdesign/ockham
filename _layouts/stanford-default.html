@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
-  <link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/screen.css" rel="stylesheet" type="text/css">
 
 <!-- Stanford branding -->
 <link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
@@ -36,7 +36,8 @@
 <div id="header">
   <div class="container">
     <img src="assets/images/wordmark-red@2x.png" alt="Stanford University" width="180" height="40">
-    <h1>{{ site.name }}</h1>
+    <h1>{{ site.title }}</h1>
+    {% include navigation.html %}
   </div>
 </div>
 

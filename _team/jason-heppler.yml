@@ -1,15 +1,16 @@
 active: true
 bio:
-  Jason A. Heppler is the Academic Technology Specialist...
+  Jason A. Heppler is the Academic Technology Specialist in the Department of History at Stanford University, where he pursues research and teaching in digital history, Western North America, and urban history. He took a B.A. from South Dakota State University, an M.A. from the University of Nebraska-Lincoln. Jason spent two years as the project manager of the William F. Cody Archive at the Center for Digital Research in the Humanities at UNL.
 email: jheppler@stanford.edu
 image:
-  url: /images/jason-heppler.jpg
+  url: assets/images/jason-heppler.jpg
   title: Academic Technology Specialist, History
   alt: Jason Heppler
 layout: profile
 name: Jason Heppler
 role: Academic Technology Specialist, History
 short:
-  Jason is the Academic Technology Specialist for the Department of History.
+  Jason is the Academic Technology Specialist for the Department of History and has extensive experience in digital history research methods, data visualization, and spatial history.
 twitter: jaheppler
 type: staff
+website: www.jasonheppler.org
