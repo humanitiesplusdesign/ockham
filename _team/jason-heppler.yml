@@ -1,0 +1,15 @@
+active: true
+bio:
+  Jason A. Heppler is the Academic Technology Specialist...
+email: jheppler@stanford.edu
+image:
+  url: /images/jason-heppler.jpg
+  title: Academic Technology Specialist, History
+  alt: Jason Heppler
+layout: profile
+name: Jason Heppler
+role: Academic Technology Specialist, History
+short:
+  Jason is the Academic Technology Specialist for the Department of History.
+twitter: jaheppler
+type: staff
