@@ -1,0 +1,83 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+
+<!-- Stanford branding -->
+<link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
+<![endif]-->
+
+</head>
+<body>
+
+<div id="su-wrap"> <!-- #su-wrap start -->
+  <div id="su-content"> <!-- #su-content start -->
+
+		<!-- Brandbar snippet start -->
+		<div id="brandbar">
+		  <div class="container">
+		    <a href="http://www.stanford.edu">
+		      <img src="https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="152" height="23">
+		    </a>
+		  </div> <!-- .container end -->
+		</div> <!-- #brandbar end -->
+		<!-- Brandbar snippet end -->
+
+<div id="header">
+  <div class="container">
+    <img src="assets/images/wordmark-red@2x.png" alt="Stanford University" width="180" height="40">
+    <h1>{{ site.name }}</h1>
+  </div>
+</div>
+
+<div role="main">
+    {{ content }}
+</div>
+
+  </div> <!-- #su-content end -->
+</div> <!-- #su-wrap end -->
+
+<!-- Global footer snippet start -->
+<div id="global-footer">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2">
+        <a href="http://www.stanford.edu">
+          <img src="https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/>
+        </a>
+      </div>
+      <!-- #bottom-logo end -->
+      <div id="bottom-text" class="span10">
+        <ul>
+          <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+          <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+          <li class="search-stanford"><a href="http://www.stanford.edu/search/">Search Stanford</a></li>
+          <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+          <li class="copyright"><a href="http://www.stanford.edu/site/copyright.html">Copyright Complaints</a></li>
+        </ul>
+      </div> <!-- .bottom-text end -->
+      <div class="clear"></div>
+      <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span> </span></p>
+    </div> <!-- .row end -->
+  </div> <!-- .container end -->
+</div> <!-- global-footer end -->
+<!-- Global footer snippet end -->
+
+<script type="text/javascript">
+
+// include Google Analytics
+
+</script>
+
+</body>
+</html>
