@@ -1,3 +1,6 @@
+name:       Center for Spatial and Textual Analysis
+
+
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -6,6 +9,7 @@ include:     ['.htaccess']
 exclude:     []
 keep_files:  ['.git','.svn']
 timezone:    nil
+
 
 future:      true
 show_drafts: nil
@@ -24,12 +28,10 @@ textile_ext:   textile
 excerpt_separator: "\n\n"
 
 safe:        false
-watch:       false    # deprecated
-server:      false    # deprecated
 host:        0.0.0.0
 port:        4000
 baseurl:     /
-url:         http://localhost:4000
+url:
 lsi:         false
 
 maruku:
