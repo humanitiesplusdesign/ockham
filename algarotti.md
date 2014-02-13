@@ -2,7 +2,7 @@
 layout: page  
 group: casestudies  
 
-title: Francesco Algarotti's Reverse Grand Tour: Travels, Publications, and Letters
+title: "Francesco Algarotti's Reverse Grand Tour: Travels, Publications, and Letters"
 ---  
 
 ###Research Team

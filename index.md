@@ -1,18 +1,19 @@
 ---
-layout: default
+layout: stanford-default
 group: casestudies
 
 title: Francesco Algarotti's Reverse Grand Tour
 ---
 
-###Research Team
+### Research Team
 
 Paula Findlen (Lead)
 
 Cheryl Smeall
+
 Hannah Marcus
 
-###About the Project
+### About the Project
 
 At the height of the eighteenth century, Francesco Algarotti (1712-64) was one of the most urbane, knowledgeable, well-traveled, and widely published Italians.  The son of a merchant, he enjoyed widespread fame as Italy’s most well-known and well-read man of letters, ennobling himself and his family in the process.  Algarotti was simultaneously an experimenter, historian, poet, art critic and dealer, diplomat and traveler, cultural advisor, and more generally an astute and witty observer and critic of his world.  Friend of Voltaire and Lady Mary Wortley Montagu, intimate advisor of Frederick the Great and Augustus III (Elector of Saxony and King of Poland), travel companion of Anders Celsius and Lord Baltimore, and self-proclaimed disciple of Newton, Algarotti was also greatly admired by that most learned and libertine of Venetians, Giacomo Casanova.  As Frederick the Great composed the epitaph for Algarotti’s tomb in Pisa – Algarotto Ovidii aemulo, Neutonii discipulo, Fridericus rex – Voltaire famously remarked of his Venetian friend:  “he belongs to Europe.” This project draws upon Paula Findlen’s and Cheryl Smeall’s expertise on Algarotti to map Algarotti’s travels in Europe, Britain, and Russia as a case study in cosmopolitanism, or what we have called the “reverse Grand Tour.”  We are also exploring the relations between Algarotti’s travels and his publications, starting with the many itineraries of his bestselling Newtonianism for Ladies (1737).  Finally, since there is no extant modern edition of the entirety of Algarotti’s correspondence, we are beginning to map Algarotti’s correspondence by examining which letters he and his immediate heirs chose to publish during his lifetime and in the decades immediately following his death, culminating in the most comprehensive edition of his collected works, Opere (1791-94), 17 vols.  The patterns of his published correspondence provide in interesting case study in what it means to publish letters in the eighteenth century.
 
