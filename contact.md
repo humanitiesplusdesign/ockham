@@ -1,7 +1,5 @@
 ---
-layout: page
-group: 
+layout: stanford-default
 title: "Contact"
-permalink: 
-description: ""
+permalink: /contact/ 
 ---

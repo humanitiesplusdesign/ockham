@@ -31,6 +31,13 @@ h2 {
     line-height: 1.2em;
 }
 
+div[role=main] {
+  text-align: justify;
+  width: 94%;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
 div[role=main] h2 {
   background-color: #f2f1eb;
   border-bottom: medium none;
@@ -69,6 +76,8 @@ p {
     margin: 0 0 1em;
 }
 
+small{font-size:11px;color:#bfbfbf}
+
 ul,
 ol {
   padding: 0;
@@ -84,7 +93,7 @@ ol ul {
 
 ul li {
   list-style-image: url(/images/bullet.png);
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 li {
@@ -187,11 +196,27 @@ header[role=banner] {
     background-size: cover;
     height: auto;
     width: 920px;
--moz-box-shadow: inset 0 0 30px rgba(0,0,0,.79);
--webkit-box-shadow: inset 0 0 30px rgba(0,0,0,.79);
-box-shadow: inset 0 0 30px rgba(0,0,0,.79);
-margin: 0 auto;
+    -moz-box-shadow: inset 0 0 30px rgba(0,0,0,.79);
+    -webkit-box-shadow: inset 0 0 30px rgba(0,0,0,.79);
+    box-shadow: inset 0 0 30px rgba(0,0,0,.79);
+    margin: 0 auto;
 }
+
+#team-page{text-align:left}
+#team-page ul{display:inline-block;*display:inline;*zoom:1}
+.team li{padding:10px}
+.team li a{display:block;text-align:center}
+.team li a:hover{text-decoration:none}
+.team li img{border:1px solid #ccc;padding:2px}
+.team li p{color:#555555;font-weight:bold;line-height:1em}
+#profile h1{margin-bottom:20px}
+#profile-photo{text-align:center}
+.author-info .fn{color:#444;font-size:16px;font-weight:bold;margin-bottom:8px}
+.author-info .note p{font-size:14px}
+#tweets{margin-top:20px}
+#tweets ul{padding:0;margin:0;list-style-type:none}
+#tweets ul li{border-top:1px dashed #D2D2D2;font:1em/1.4em Verdana,sans-serif;padding-top:1em}
+#tweets .jta-tweet-attributes{color:#999;display:block;font-size:0.75em;line-height:1.4em;margin-top:0.75em}
 
 form {
     display: block;
@@ -443,6 +468,20 @@ form {
 }
 
 /* layouts */
+
+[class*="span"] {
+  display: inline;
+  float: left;
+}
+
+.person {
+  width: 160px;
+}
+
+span3{
+  width:160px;
+}
+
 .span4 {
     width: 30%;
     float: left;
@@ -464,6 +503,10 @@ form {
     width: 1170px;
 }
 
+.col-md-4 {
+  width: 33%;
+}
+
 /* Menu */
 
 nav {
@@ -483,6 +526,7 @@ nav ul li {
   margin-left: 0;
   list-style: none;
   float: left;
+  width: 100%;
 }
 
 .nav > li > a {
@@ -587,13 +631,6 @@ nav ul li {
     text-transform: uppercase;
 }
 
-div[role=main] {
-  text-align: justify;
-  width: 94%;
-  max-width: 920px;
-  margin: 0 auto;
-}
-
 #main a {
   border-bottom: 1px solid #b4b3b3;
   padding-bottom: 1px;
@@ -644,6 +681,156 @@ table.red-header th a:active {color: #fff;}
 table.red-header td {background: #fff; color: #333; padding: 2px; vertical-align: top; border: 1px solid #bbb;}
 table.red-header td ul {padding: 0 0 0 0.8em; margin: 0 0 0 0.8em;}
 table.red-header td ol {padding: 0 0 0 1em; margin: 0 0 0 1em;}
+
+/* Carousel */
+
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+     -moz-transition: 0.6s ease-in-out left;
+       -o-transition: 0.6s ease-in-out left;
+          transition: 0.6s ease-in-out left;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  line-height: 1;
+}
+
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  display: block;
+}
+
+.carousel-inner > .active {
+  left: 0;
+}
+
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.carousel-inner > .next {
+  left: 100%;
+}
+
+.carousel-inner > .prev {
+  left: -100%;
+}
+
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  left: 0;
+}
+
+.carousel-inner > .active.left {
+  left: -100%;
+}
+
+.carousel-inner > .active.right {
+  left: 100%;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 23px;
+     -moz-border-radius: 23px;
+          border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.carousel-control.right {
+  right: 15px;
+  left: auto;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 5;
+  margin: 0;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  display: block;
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  text-indent: -999px;
+  background-color: #ccc;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.carousel-caption h4,
+.carousel-caption p {
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.carousel-caption h4 {
+  margin: 0 0 5px;
+}
+
+.carousel-caption p {
+  margin-bottom: 0;
+}
 
 
 /* Bootstrap */

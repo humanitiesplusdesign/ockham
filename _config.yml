@@ -2,17 +2,15 @@ title:            Center for Spatial and Textual Analysis
 tagline:          "CESTA"
 description:      "The Center for Spatial and Textual Analysis is a lab at Stanford University."
 # Site domain goes here. Leave localhost server or blank when working locally.
-url:
+#url:
 
 # Owner/author information
 owner:
   name:           Center for Spatial and Textual Analysis
   email:
   twitter:        "cesta"
-  github:         "cesta"
+  #github:         "cesta"
   facebook:       "cesta"
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    ""
 
 future:           true
 lsi:              false
@@ -22,15 +20,15 @@ markdown:         kramdown
 permalink:        /:year/:month/:day/:title/
 
 # Internal pages/posts to include in top navigation
-links:
-  - title: People
-    url: /people/
-  - title: Labs &amp; Projects
-    url: /labs-projects/
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
+# links:
+#   - title: People
+#     url: /team/
+#   - title: Labs &amp; Projects
+#     url: /labs-projects/
+#   - title: About
+#     url: /about/
+#   - title: Contact
+#     url: /contact/
 
 kramdown:
   auto_ids: true

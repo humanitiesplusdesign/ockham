@@ -5,44 +5,28 @@ title: People
 
 <div id="team-page">
   {% if page.team['staff'] %}
-    <h2>{{ page.title }}</h2>
+    <h1>{{ page.title }}</h1>
 
     <ul class="team row">
-      {% for person in page.team['employee'] %}
+      {% for person in page.team['staff'] %}
         <li class="person span3">
-          <a href="/team/{{ person[0] }}">
-            {% if person[1].image %}
-              <img src="{{ person[1].image.url }}" title="{{ person[1].image.title }}" alt="{{ person[1].image.alt }}" width="150" />
-            {% endif %}
-
-            <p>
-              {{ person[1].name }}
-              <br />
-              <small>{{ person[1].role }}</small>
-            </p>
-          </a>
+          {{ person[1].name }}
+          <br />
+          <small>{{ person[1].role }}</small>
         </li>
       {% endfor %}
     </ul>
   {% endif %}
 
   {% if page.team['alumni'] %}
-    <h2>Alumni</h2>
+    <h1>Alumni</h1>
 
     <ul class="team row">
       {% for person in page.team['alumni'] %}
-        <li class="person span3">
-          <a href="/team/{{ person[0] }}">
-            {% if person[1].image %}
-              <img src="{{ person[1].image.url }}" title="{{ person[1].image.title }}" alt="{{ person[1].image.alt }}" width="150" />
-            {% endif %}
-
-            <p>
-              {{ person[1].name }}
-              <br />
-              <small>{{ person[1].role }}</small>
-            </p>
-          </a>
+        <li class="person">
+          {{ person[1].name }}
+          <br />
+          <small>{{ person[1].role }}</small>
         </li>
       {% endfor %}
     </ul>

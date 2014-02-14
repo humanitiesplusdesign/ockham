@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Francesco Algarotti's Reverse Grand Tour</title>
+  <title>CESTA</title>
   <link href="/assets/css/screen.css" rel="stylesheet" type="text/css">
 
 <!-- Stanford branding -->
@@ -16,6 +16,8 @@
 <!--[if IE 7]>
   <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
 <![endif]-->
+
+<script src="/assets/lib/jquery-2.1.0.min.js"></script>
 
 </head>
 <body>
@@ -35,19 +37,15 @@
 
 <div id="header">
   <div class="container">
-    <img src="assets/images/wordmark-red@2x.png" alt="Stanford University" width="180" height="40">
+    <img src="/assets/images/wordmark-red@2x.png" alt="Stanford University" width="180" height="40">
     <h1>Center for Spatial and Textual Analysis</h1>
     <nav role="navigation" id="site-nav" class="nav">
       <ul>
-          
-            <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="/people/" itemprop="url"><span itemprop="name">People</span></a></li>
-          
-            <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="/labs-projects/" itemprop="url"><span itemprop="name">Labs &amp; Projects</span></a></li>
-          
-            <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="/about/" itemprop="url"><span itemprop="name">About</span></a></li>
-          
-            <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="/contact/" itemprop="url"><span itemprop="name">Contact</span></a></li>
-          
+        <li><a href="/">Home</a></li>
+        <li><a href="/team/">People</a></li>
+        <li><a href="/labs-projects/">Labs &amp; Projects</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="">Contact</a></li>
       </ul>
 </nav>
 
@@ -55,21 +53,27 @@
 </div>
 
 <div role="main">
-    <h3 id="research-team">Research Team</h3>
+    <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        <div class="item"><img src="/assets/images/header1.png"/></div>
+        <div class="item"><img src="/assets/images/header2.png"/></div>
+        <div class="item"><img src="/assets/images/header3.png"/></div>
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
 
-<p>Paula Findlen (Lead)</p>
+<p>The Center for Spatial and Textual Analysis (CESTA) is comprised of the Spatial History Project, Humanities + Design, and the Literary Lab. This interdisciplinary collective of labs operates independently of any one particular home department, and is organizationally housed within the Dean of Research at Stanford University.</p>
 
-<p>Cheryl Smeall</p>
+<p>CESTA labs pursue research which utilize data and information visualization that span a variety of methodologies, disciplines, and departments, often collaborating with diverse team members from within the Stanford community, but also externally through national and international collaborations. Please see the individual lab links on the main CESTA page to find more information and details about each lab’s members and projects.</p>
 
-<p>Hannah Marcus</p>
-
-<h3 id="about-the-project">About the Project</h3>
-
-<p>At the height of the eighteenth century, Francesco Algarotti (1712-64) was one of the most urbane, knowledgeable, well-traveled, and widely published Italians.  The son of a merchant, he enjoyed widespread fame as Italy’s most well-known and well-read man of letters, ennobling himself and his family in the process.  Algarotti was simultaneously an experimenter, historian, poet, art critic and dealer, diplomat and traveler, cultural advisor, and more generally an astute and witty observer and critic of his world.  Friend of Voltaire and Lady Mary Wortley Montagu, intimate advisor of Frederick the Great and Augustus III (Elector of Saxony and King of Poland), travel companion of Anders Celsius and Lord Baltimore, and self-proclaimed disciple of Newton, Algarotti was also greatly admired by that most learned and libertine of Venetians, Giacomo Casanova.  As Frederick the Great composed the epitaph for Algarotti’s tomb in Pisa – Algarotto Ovidii aemulo, Neutonii discipulo, Fridericus rex – Voltaire famously remarked of his Venetian friend:  “he belongs to Europe.” This project draws upon Paula Findlen’s and Cheryl Smeall’s expertise on Algarotti to map Algarotti’s travels in Europe, Britain, and Russia as a case study in cosmopolitanism, or what we have called the “reverse Grand Tour.”  We are also exploring the relations between Algarotti’s travels and his publications, starting with the many itineraries of his bestselling Newtonianism for Ladies (1737).  Finally, since there is no extant modern edition of the entirety of Algarotti’s correspondence, we are beginning to map Algarotti’s correspondence by examining which letters he and his immediate heirs chose to publish during his lifetime and in the decades immediately following his death, culminating in the most comprehensive edition of his collected works, Opere (1791-94), 17 vols.  The patterns of his published correspondence provide in interesting case study in what it means to publish letters in the eighteenth century.</p>
-
-<p>In 2010-11 Paula Findlen began to develop the databases of Algarotti’s travels and publications and Hannah Marcus initiated the database of his published letters and presented the preliminary results of her work at the Cini Foundation Workshop on “Mapping the Republic of Letters” in March 2011 and at UCLA in May 2011.  In 2011, after completing a doctoral dissertation examining Algarotti’s travels and career through the lens of the networks he formed along the way, Cheryl Smeall joined the project and created the complete database of published letters, and enhanced the database of travel and publications.</p>
-
-<p>In 2012-13 Findlen and Smeall are collaborating with Nicole Coleman to develop three interrelated maps of Algarotti’s travels, publications, and letters.  This material will be made publicly available and be incorporated into Findlen’s and Smeall’s forthcoming publications on Algarotti.</p>
 
 
 </div>
