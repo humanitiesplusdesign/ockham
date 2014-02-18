@@ -1,0 +1,14 @@
+description:
+  "Information here."
+image:
+  url: /assets/images/gotp.png
+  title: Spatial History Project
+  alt: Spatial History Project
+layout: project
+project_description: "Info here."
+published: true
+short:
+  "Info here."
+title:     Spatial History Project
+website:   http://spatialhistory.stanford.edu
+category: lab

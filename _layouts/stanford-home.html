@@ -2,21 +2,52 @@
 layout: stanford-default
 ---
 
-<div id="myCarousel" class="carousel slide">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-        <div class="item"><img src="{{ site.url }}/assets/images/header1.png"/></div>
-        <div class="item"><img src="{{ site.url }}/assets/images/header2.png"/></div>
-        <div class="item"><img src="{{ site.url }}/assets/images/header3.png"/></div>
+<div id="overview">
+    <div class="span12" id="feature-banner">
+        <div id="feature-banner-text">
+            <h3>{{ site.title }}</h3>
+            <p>{{ site.description }}</p>
+        </div>
     </div>
-    <!-- Carousel nav -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    <img src="{{ site.url }}/assets/images/header2.png" width="920" height="320" />
 </div>
 
+<div class="span8">
 {{ content }}
+</div>
+
+<div class="span4">
+<div id="event-list">
+    <h3>Upcoming Events</h3>
+        <div class='event postcard-left'>
+        <div class='event-date'>
+          <div class='event-month'>FEB</div>
+          <div class='event-day'>26</div>
+          <div class='event-year'>2014</div>
+        </div>
+          <div class='event-text'>Mark Algee-Hewitt, Ryan Heuser, J.D. Porter, Jonathan Sensenbaugh, and Justin Tackett on the longue duree of English poetic conventions, 1500-1900
+          <p class='timestamp'>10:00-12:00, Literary lab</p>
+          </div>
+        </div>
+        <div class='event postcard-left'>
+        <div class='event-date'>
+          <div class='event-month'>Mar</div>
+          <div class='event-day'>6</div>
+          <div class='event-year'>2014</div>
+        </div>
+          <div class='event-text'>Lisa Blaydes, Justin Grimmer, and Alyson McQueen on a quantitive study of the genure of "mirrors of princes," comparing texts from medieval Christianity and Islam.
+          <p class='timestamp'>10:00-12:00, Literary lab</p>
+          </div>
+        </div>
+        <div class='event postcard-left'>
+        <div class='event-date'>
+          <div class='event-month'>MAR</div>
+          <div class='event-day'>10</div>
+          <div class='event-year'>2014</div>
+        </div>
+          <div class='event-text'>Ryan Heuser on the Lab interface that allows for visualization and analysis of corpora.
+          <p class='timestamp'>10:00-12:00, Literary lab</p>
+          </div>
+        </div>
+    </div>
+</div>

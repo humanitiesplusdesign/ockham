@@ -5,7 +5,7 @@
   <link href="{{site.url}}/assets/css/screen.css" rel="stylesheet" type="text/css">
 
 <!-- Stanford branding -->
-<link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
+<link href="{{ site.url }}/assets/css/su-identity.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -29,6 +29,7 @@
 		<div id="brandbar">
 		  <div class="container">
 		    <a href="http://www.stanford.edu">
+        <!-- TODO(jheppler): Bring this into the local images dir -->
 		      <img src="https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="152" height="23">
 		    </a>
 		  </div> <!-- .container end -->
@@ -56,6 +57,7 @@
     <div class="row">
       <div id="bottom-logo" class="span2">
         <a href="http://www.stanford.edu">
+        <!-- TODO(jheppler): Bring into local dir -->
           <img src="https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/>
         </a>
       </div>
@@ -76,11 +78,7 @@
 </div> <!-- global-footer end -->
 <!-- Global footer snippet end -->
 
-<script type="text/javascript">
-
-// include Google Analytics
-
-</script>
+{% include ga.html %}
 
 </body>
 </html>
