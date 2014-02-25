@@ -203,10 +203,10 @@ header[role=banner] {
 }
 
 #team-page{text-align:left}
-#team-page ul{display:inline-block;*display:inline;*zoom:1}
+#team-page ul{display:inline-block;*display:inline;*zoom:1;margin-left:0; width:1060px;}
 .team li{padding:10px}
-.team li a{display:block;text-align:center}
-.team li a:hover{text-decoration:none}
+/*.team li a{display:block;text-align:center}*/
+/*.team li a:hover{text-decoration:none}*/
 .team li img{border:1px solid #ccc;padding:2px}
 .team li p{color:#555555;font-weight:bold;line-height:1em}
 #profile h1{margin-bottom:20px}
@@ -536,10 +536,10 @@ form {
 }
 
 .person {
-  width: 15%;
+  width: 30%;
 }
 
-span3{
+span3 {
   width:160px;
 }
 

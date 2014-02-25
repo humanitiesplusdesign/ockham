@@ -10,7 +10,7 @@ title: People
     <ul class="team row">
       {% for person in page.team['staff'] %}
         <li class="person span3">
-          {{ person[1].name }}
+          <a href="{{person[1].website}}">{{ person[1].name }}</a>
           <br />
           <small>{{ person[1].role }}</small>
         </li>
