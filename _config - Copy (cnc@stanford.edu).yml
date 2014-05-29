@@ -1,0 +1,6 @@
+name: Humanities + Design
+markdown: redcarpet
+highlighter: pygments
+description: "We are a research lab at the Center for Spatial and Textual Analysis (CESTA), Stanford University."
+safe: false
+

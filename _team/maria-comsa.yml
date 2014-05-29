@@ -1,14 +1,19 @@
 active: true
 bio:
-email:
+  This is a sample person's bio.
+email: mcomsa@stanford.edu
+github: humanitiesplusdesign
 image:
-  url:
-  title: Researcher and Lab Manager, Humanities+Design
-  alt: Maria Comsa
+  url: /assets/maria.jpg
+  title: Maria Comsa
+  alt: Maria
+  attribution:
 layout: profile
+linkedin: cncoleman
 name: Maria Comsa
-role: Researcher and Lab Manager, Humanities+Design Lab
+role: Founder & Director
 short:
-twitter:
-type: staff
+  <a href="/team/maria-comsa">Maria Comsa</a> is a Graduate Research Fellow and the Lab Manager for Humanities+Design.
+twitter: 
+type: employee
 website:

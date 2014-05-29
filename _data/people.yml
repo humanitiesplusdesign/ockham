@@ -1,0 +1,267 @@
+
+- name: Dan Edelstein
+  institution: stanford
+  position: faculty
+  hd_role: director
+  neh_role: Principal Investigator
+  neh_role_description: "Dan Edelstein shapes and shepherds the humanities research agenda underlying this project and brings his own research projects to the testing and evaluation at all stages of the project."
+  image: /assets/dan.jpg
+
+- name: Nicole Coleman
+  institution: stanford
+  position: staff
+  hd_role: director
+  neh_role: Project Director
+  neh_role_description: "Nicole Coleman oversees the project from the development of the visual components and web applications through dissemination of final products, as well as the recruitment and supervision of hired staff."
+  image: /assets/nicole.jpg
+  
+- name: Maria Comsa
+  institution: stanford
+  position: 
+      - graduate
+      - staff
+  hd_role: 
+      - lab manager
+      - researcher
+      - fellow
+  neh_role: Lead User Tester
+  neh_role_description: "Maria has been deeply involved in the work of Mapping the Republic of Letters for several years. She is currently the H+D Lab Manager, a Graduate Research Fellow, and a Procope team lead, all while completing her dissertation."
+  image: /assets/maria.jpg
+  project-title: "Society Theater: a Laboratory for Esthetic and Social Change (1715-1815)"
+  department: French Literature and Language
+  fellowship: 
+  - "2012-2013"
+  - "2013-2014"
+
+- name: Mark Braude
+  institution: stanford
+  position: staff
+  hd_role: Postdoctoral Fellow
+  neh_role: Project Coordinator
+  neh_role_description: "Mark Braude, an H+D Postdoctoral Research Fellow, is the project coordinator. Mark will liaise with user testers and aggregate results of testing throughout the project, in addition to bringing his own case study as an embedded User Tester."
+  image: /assets/mark.jpg
+
+- name: Giorgio Caviglia
+  institution: stanford
+  position: staff
+  hd_role: Postdoctoral Fellow
+  neh_role: Design Researcher
+  neh_role_description: "Giorgio Caviglia, a CESTA Postdoctoral Research Fellow, leads the design process including the integration of user tester participation and  feedback into final products."
+  image: /assets/giorgio.jpg
+  
+- name: Ethan Jewett
+  institution: Coredatra
+  position: contractor
+  hd_role: Contractor
+  neh_role: Lead Developer
+  neh_role_description: "Ethan Jewett (Coredatra, LLC) is the lead developer, who works with the team to develop and implement the design specification as code."
+  image: /assets/ethan.jpg
+
+- name: Eetu Mäkelä
+  institution: Aalto University, Finland
+  position: postdoc
+  hd_role: Visiting Scholar
+  neh_role: Linked Data Researcher
+  neh_role_description: "Eetu Makela, a postdoctoral fellow at Aalto University, Finland, will work in collaboration with H+D, Stanford University Library, and Cultures of Knowledge (Oxford), around linked-data exchange and defining appropriate ontologies using existing models."
+  image: /assets/eetu.jpg
+
+- name: Glauco Mantegari
+  institution: none
+  position: contractor
+  hd_role: "Postdoctoral Fellow, 2012-2013"
+  neh_role: Consultant
+  neh_role_description: "Glauco Mantegari is working with the Procope project team to define specifications for matching and verifying user data against name authority files and historical geospatial data."
+  image: /assets/glauco.jpg
+
+- name: Claude Willan
+  institution: stanford
+  position: graduate
+  department: English
+  hd_role: 
+  - fellow
+  - researcher
+  fellowship: 
+  - "2012-2013"
+  - "2013-2014"
+  project-title: "John Locke's Correspondence Network"
+  image: /assets/claude.willan.jpg
+
+- name: Jacqueline Arthur-Montagne
+  institution: stanford
+  position: graduate
+  department: Classics
+  hd_role: 
+    - fellow
+    - researcher
+  fellowship: "2013-14"
+  project-title: "Text Networks in the Early Roman Empire"
+  image: http://www.stanford.edu/dept/classics/cgi-bin/web/sites/all/files/imagecache/profile_full_display/profile_pictures/photobest_0.JPG
+  
+- name: Patrick Bergemann
+  institution: stanford
+  position: graduate
+  department: Sociology
+  hd_role: 
+    - fellow
+    - researcher
+  fellowship: "2013-14"
+  project-title: "A General Theory of Denunciations"
+  image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
+  
+- name: Guillaume Beaudin
+  institution: stanford
+  position: graduate
+  department: History
+  hd_role: 
+    - fellow
+    - researcher
+  fellowship: "2013-14"
+  project-title: A Conquista Espiritual
+  image: /assets/beaudin.jpg
+
+- name: David Driscoll
+  institution: stanford
+  position: graduate
+  department: Classics
+  hd_role: 
+   - fellow
+   - researcher
+  fellowship: "2013-14"
+  project-title: "Mapping the Movement of Lyric Poets in the Archaic and Classical Greek World"
+  image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
+
+- name: Luke Parker
+  institution: stanford
+  position: graduate
+  department: Slavic Literatures and Languages
+  hd_role: 
+  - fellow
+  - researcher
+  fellowship: "2013-14"
+  project-title: "The Literary Life of the Russian Emigration, 1918-1940"
+  image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
+  
+- name: Bronwen Tate
+  institution: stanford
+  position: graduate
+  department: English
+  hd_role: 
+  - fellow
+  - researcher
+  fellowship: "2013-14"
+  project-title: "Critical Traffic: A Literary Use Map"
+  image: /assets/tate.png
+  
+- name: "Molly Taylor-Poleskey"
+  institution: stanford
+  position: graduate
+  department: History
+  hd_role: 
+    - fellow
+    - researcher
+  fellowship: "2013-14"
+  project-title: "Food Consumption at the Court of Friedrich Wilhelm"
+  image: http://cmems.stanford.edu/sites/default/files/oa_person/photo/Taylor-Poleskey.JPG
+
+- name: Jonathan Weiland
+  institution: stanford
+  position: graduate
+  department: Classical Archaeology
+  hd_role: 
+   - fellow
+   - researcher
+  fellowship: "2013-14"
+  project-title: "Complexity of Interactions in the Classical Roman Period"
+  image: /assets/jon_weiland.png
+
+- name: Hans Wietzke
+  institution: stanford
+  position: graduate
+  department: Classics
+  hd_role: 
+   - fellow
+   - researcher
+  fellowship: "2013-14"
+  project-title: "What was an author?"
+  image: /assets/hans_wietzke.png
+  
+- name: Marcelo Aranda
+  institution: stanford
+  position: graduate
+  department: History of Science
+  hd_role: 
+   - alumni
+   - researcher
+  fellowship_years: 
+   - "2012-13"
+  project-title: "Science in the 17th Century Spanish Monarchy"
+  image:  /assets/aranda.jpg
+
+- name: Melanie Conroy
+  institution: stanford
+  position: graduate
+  department: French Literature and Language
+  hd_role: 
+  - alumni
+  - researcher
+  - "Lab Manager, 2012-2013"
+  fellowship: "2012-13"
+  project-title: "The Salons Project"
+  image: /assets/conroy.jpg
+
+- name: Hannah Florence Marcus
+  institution: stanford
+  position: graduate
+  department: History
+  hd_role: 
+  - alumni
+  - researcher
+  fellowship: "2012-13"
+  project-title: "The Correspondence Network of Galileo Galilei"
+  image: /assets/marcus.jpg
+
+- name: Nicole DeBenedictis
+  institution: stanford
+  position: graduate
+  department: History
+  hd_role: 
+  - alumni
+  - researcher
+  fellowship: "2012-13"
+  project-title: "17th Century Italian Academies"
+  image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
+
+- name: Kate Eslwit
+  institution: stanford
+  position: postdoctoral fellow
+  hd_role: 
+  - researcher
+  - external affiliate
+
+- name: Vincent Barletta
+  institution: stanford
+  position: faculty
+  hd_role: 
+  - researcher
+  
+- name: Humberto Brito
+  institution: stanford
+  position: faculty
+  title: "visiting lecturer"
+  hd_role: 
+  - researcher
+  
+- name: Kate Sweetapple
+  institution: "University of Technology, Sydney"
+  position: faculty
+  title: 
+  hd_role: 
+  - researcher
+  - external affiliate
+    
+- name: Jacquie Lorber-Kasunic
+  institution: "University of Technology, Sydney"
+  position: faculty
+  hd_role: 
+  - researcher
+  - external affiliate

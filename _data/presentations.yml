@@ -1,0 +1,43 @@
+
+
+- event: "openLAB"
+  host: Metalab at Harvard
+  date: April 23, 2014
+  presenters: 
+    - Dan Edelstein
+    - Giorgio Caviglia  
+  image: /assets/openlabharvard2014.jpg
+  topic: palladio
+  
+- event: "Visualizing Data for Historical Research: An Introduction to Palladio" 
+  host: "Harvard History department/Center for History and Economics"
+  date: April 24, 2014
+  presenters: Dan Edelstein
+  image: http://upload.wikimedia.org/wikipedia/commons/f/f7/Harvard_1740_by_William_Burgis.jpg
+  topic: palladio
+
+- event: "Society for French Historical Studies"
+  host: Université du Québec à Montréal
+  date: April 24-26, 2014
+  presenters: Dan Edelstein
+  image: http://www.societyforfrenchhistoricalstudies.net/SFHS.JPG
+  topic: palladio
+
+- event: "Humanities 2.0: New Tools for the Digital Age"
+  host: Department of Art History, UC Berkeley
+  date: April 4, 2014
+  presenters: 
+    - Dan Edelstein
+    - Nicole Coleman
+  image: /assets/dh_symposium_berkeley.jpg
+  topic: palladio
+
+
+- event: "Empires of Knowledge"
+  host: Scientific Networks in the Early Modern World Workshop, Stanford
+  date: "May 2-3, 2014"
+  presenters: 
+  - Mark Braude
+  image: /assets/empiresofknowledge.png
+  topic: palladio
+

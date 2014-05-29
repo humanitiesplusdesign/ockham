@@ -1,0 +1,11 @@
+/* Ockkam styles */
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: rgba(142,19,10,1);
+background-color: transparent;
+border-bottom: solid 1px rgba(142,19,10,1);
+}
+
+a:hover {
+color: rgba(142,19,10,.5);
+}

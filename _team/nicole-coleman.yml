@@ -1,14 +1,19 @@
 active: true
 bio:
-email:
+  This is a sample person's bio.
+email: cncoleman@stanford.edu
+github: humanitiesplusdesign
 image:
-  url:
-  title: Staff Director, Humanities+Design
-  alt: Nicole Coleman
+  url: /assets/nicole.jpg
+  title: Nicole Coleman
+  alt: Nicole
+  attribution:
 layout: profile
+linkedin: cncoleman
 name: Nicole Coleman
-role: Staff Director, Humanities+Design Lab
+role: Founder & Director
 short:
-twitter:
-type: staff
-website:
+  <a href="/team/nicole-coleman">Nicole Coleman</a> is the founder and staff director of Humanities+Design and part of the Academic Technology Specialists team within the Stanford University Library.
+twitter: cncoleman
+type: employee
+website: 

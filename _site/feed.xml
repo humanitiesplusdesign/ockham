@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Humanities + Design</title>
+    <description>We are a research lab at the Center for Spatial and Textual Analysis (CESTA), Stanford University.</description>
+    <link>http://hdlab.stanford.edu</link>
+    <atom:link href="http://hdlab.stanford.edu/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Apr 2014 04:34:22 -0700</pubDate>
+        <link>http://hdlab.stanford.edu//jekyll/update/2014/04/23/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://hdlab.stanford.edu//jekyll/update/2014/04/23/welcome-to-jekyll.html</guid>
+      </item>
+    
+      <item>
+        <title>Using Palladio to explore 18th Century French society Theater</title>
+        <description>&lt;p&gt;My name is Maria Teodora Comsa, and I am a Ph.D. candidate in French at Stanford University. I am writing my dissertation on French society theater in the 18th century under the guidance of professors Jean-Marie Apostolidès and Dan Edelstein. As a supplement to my dissertation, I have been compiling datasets cataloguing the people, locations, performances, and texts from society theater.&lt;/p&gt;
+
+&lt;p&gt;I use Palladio to visualize, explore, and augment the data that I compiled and this has proven very helpful in answering some of my research questions. What is unique about Palladio, is that it recognizes the types of data that I upload, and it allows me to view and edit the data before the visualization step. This means that I can easily correct minor errors, change formats, and most importantly, add value and hierarchy delimiters without modifying my initial source files.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Palladio’s powerful visualization options, I can easily identify trends in my data that would not be evident otherwise. For instance, I can study the social composition of the network of people involved in society theater to see how many of the participants were part of the elite (aristocracy). I can then apply a facet filter and view only the aristocrats who wrote plays… and were female. Palladio dynamically updates the different views so that I can see the results of my query on a map, in a network graph, in a table, or as a grid of images. The graph view is my favorite; it is extremely powerful because it does not restrict which values I can use as source or target, which empowers me to explore my data in ways that I had not anticipated.&lt;/p&gt;
+
+&lt;p&gt;Visualizing data helps me better understand the specificity of society theater and allows me to identify which aspects will be interesting to analyze next. Using Palladio, I can query not only my own data, but I can connect it to other data sets  (like those compiled for the Mapping the Republic of Letters project) and explore how the society theater participants fit within the larger Enlightenment networks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hdlab.stanford.edu/assets/comsa1.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 1: Network graph view of society theater participants by occupation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hdlab.stanford.edu/assets/comsa2.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 2: Graph view of society theater participants filtered by social status, occupation, and gender.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hdlab.stanford.edu/assets/comsa3.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 3: Grid view of society theater authors by social status.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hdlab.stanford.edu/assets/comsa4.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 4: Grid view of society theater participants filtered by social status, occupation, and gender.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jan 2014 00:00:00 -0800</pubDate>
+        <link>http://hdlab.stanford.edu//palladio/2014/01/29/society-theater.html</link>
+        <guid isPermaLink="true">http://hdlab.stanford.edu//palladio/2014/01/29/society-theater.html</guid>
+      </item>
+    
+  </channel>
+</rss>

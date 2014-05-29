@@ -1,0 +1,33 @@
+---
+layout: front
+---
+
+  
+  <!--center-->
+  <div class="col-sm-8">
+
+	  <h1>Laboratory Notes</h1>
+
+	  <section class="posts">
+	    {% for post in site.posts %}
+	      <h3><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span><br /><a class="post-link" href="{{ post.url }}">{{ post.title }}</a> ({{post.category}})</h3>
+		  <p>{{ post.excerpt }}</p>
+	    {% endfor %}
+	  </section>
+	
+
+	  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+    <hr>
+    
+    
+    
+  </div>
+<!--/center-->
+  
+  
+    
+  <hr>
+  
+
+
+ 

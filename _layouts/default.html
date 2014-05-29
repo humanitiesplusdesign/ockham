@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-                </head>
+
+  {% include head.html %}
+
     <body>
-        <script src="{{ site.url }}/assets/lib/jquery-2.1.0.min.js"></script>
-        <div id="myCarousel" class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <!-- Carousel items -->
-            <div class="carousel-inner">
-                <div class="active item"><img src="https://stanford.box.com/shared/static/wuj2sfup0zz6qea50zp7.jpg" /></div>
-                <div class="item">…</div>
-                <div class="item">…</div>
-            </div>
-            <!-- Carousel nav -->
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-        </div>
-        {{content}}
-    </body>
+
+    {% include header.html %}
+	<!-- container -->
+	<div class="container">
+	<div class="row wrap">
+      {{ content }}
+    </div>
+
+	
+    {% include footer.html %}
+	</div>
+	<!-- /container -->
+	<!-- scripts-->
+	        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+
+	        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+	
+	
+		        <!-- JavaScript jQuery code from Bootply.com editor -->
+
+		        <script type='text/javascript'>
+
+		        $(document).ready(function() {
+
+		});
+
+	 <!-- /scripts-->
+
+  </body>
 </html>

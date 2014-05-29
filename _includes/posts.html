@@ -1,0 +1,13 @@
+<h2>Heading?</h2>
+{% for post in site.posts %}
+<div class="row">
+  <div class="col-xs-12">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.excerpt }}</p>
+    <p class="lead"><button class="btn btn-default"><a href="{{ post.url }}">Read More</a></button></p>
+    <p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
+    <ul class="list-inline"><li>{{ post.date | date_to_string }}</li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 2 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 14 Shares</a></li></ul>
+  </div>
+</div>
+<hr>
+{% endfor %}
