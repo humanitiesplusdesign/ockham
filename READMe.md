@@ -4,15 +4,19 @@ Ockham is a platform for publishing collaborative research in the humanities bui
 
 Beginning with Jekyll, Twitter Bootstrap, and GitHub we are building a static site publishing platform for humanities research. The goal is to keep it simple. No CMS, no elaborate back-end administration, just content managed directly by the scholars who create it.   
 
-By design, content and formatting are kept separate, while making the maintaining and updating information easy for individuals without knowledge of (or interest in)HTML. We seek to make this happen by integrating Google Drive, Prose.io, and Github Gists.
+By design, content and formatting are kept separate, while making the maintaining and updating information easy for individuals without knowledge of (or interest in)HTML. We seek to make this happen by integrating cloud file shares and possily Gists.
 
 ## Layouts
 
-By default, Ockham will come with some default layouts depending on the type of project you wish to deploy.
+Ockham includes layouts for the type of research project content we have identified as essential:
 
-* Stanford Identity: 
-* Team:
-* Minimal:
+- People
+- Projects
+- Laboratory Notebook
+- Partners
+- Funding
+- Publications
+
 
 ## Plugins
 
@@ -21,9 +25,8 @@ Ockham comes with various plugins to extend the blogging platform and make maint
 * Google Drive:
 * Calendar:
 * Gists:
-* Teams:
-* **portfolio.rb**:
-* Prose.io:
+* Bibliography
+* Categories
 
 ## Deploying
 
@@ -34,10 +37,4 @@ Ockham comes with various plugins to extend the blogging platform and make maint
 
 ## About
 
-Ockham was developed by Jason A. Heppler, Academic Technology Specialist for the [Department of History](http://history.stanford.edu) and affiliated staff at the [Center for Spatial and Textual Analysis (CESTA)](http://cesta.stanford.edu), and Nicole Coleman, Academic Technology Specialist for CESTA and lab manager of [Humanities+Design](http://hdlab.stanford.edu). 
-
-Thanks to Flatterline for some inspiration and plugins.
-
-## Copyright
-
-Copyright (c) 2011 Flatterline LLC. See LICENSE for details.
+Ockham is under development by Jason A. Heppler and Nicole Coleman at the [Center for Spatial and Textual Analysis (CESTA)](http://cesta.stanford.edu), [Stanford University](http://stanford.edu). 
