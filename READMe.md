@@ -20,13 +20,7 @@ Ockham includes layouts for the type of research project content we have identif
 
 ## Plugins
 
-Ockham comes with various plugins to extend the blogging platform and make maintaining information and running updates easier. 
-
-* Google Drive:
-* Calendar:
-* Gists:
-* Bibliography
-* Categories
+Ockham does not use plugins. It can be run as gh-pages.
 
 ## Deploying
 
