@@ -1,48 +1,34 @@
-title:            Center for Spatial and Textual Analysis
-tagline:          "CESTA"
-description:      "The Center for Spatial and Textual Analysis (CESTA) is comprised of the Spatial History Project, Humanities+Design, and the Literary Lab. This interdisciplinary collective of labs operates independently of any one particular home department, and is organizationally housed within the Dean of Research at Stanford University."
-# Site domain goes here. Leave localhost server or blank when working locally.
-url:              http://cesta.stanford.edu/our-work/
+name:                     "Crowdsourcing"
+sub-name:                 "Crowdsourcing for the Humanities"
+# is this a lab site or project site?
+type:                      project
+markdown:                 redcarpet
+highlighter:              pygments
+description:              "A research project at the Center for Spatial and Textual Analysis (CESTA), Stanford University."
+category_dir :
+category_title_prefix :   ''
+category_title :          ''
+google_id:                ''
+disqus:                   ''
+url:                      http://localhost:4000
+permalink:                /:year/:month/:day/:title/
+twitter:                  
+banner-img-url:           "https://googledrive.com/host/0B_L3W8DD67iAVUktdHIxN0RnUjA/"
 
-# Owner/author information
-owner:
-  name:           Center for Spatial and Textual Analysis
-  email:
-  twitter:        "cesta"
-  #github:         "cesta"
-  facebook:       "cesta"
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Tools
+    url: /tools/
+  - title: People
+    url: /people/
 
-future:           true
-lsi:              false
-pygments:         true
-markdown:         kramdown
-# http://jekyllrb.com/docs/permalinks/
-permalink:        /:year/:month/:day/:title/
-
-# Internal pages/posts to include in top navigation
-# links:
-#   - title: People
-#     url: /team/
-#   - title: Labs &amp; Projects
-#     url: /labs-projects/
-#   - title: About
-#     url: /about/
-#   - title: Contact
-#     url: /contact/
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "codekit-config.json", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json"]
+projects:
+  - title: Living with the Railroads
+    url: living-with-railroads
+  - title: Year of the Bay
+    url: year-of-the-bay
+  - title: Emotions of London
+    url: emotions-of-london

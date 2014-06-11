@@ -1,0 +1,9 @@
+{% for image in site.data.images %}
+{% if image.title  == page.project-name %}
+
+<div class="widewrapper main">
+      <img src="{{ site.banner-img-url }}{{ image.filename }}" class="img-responsive" alt="{{ image.alt-txt }}">
+</div>
+
+{% endif %}
+{% endfor %}

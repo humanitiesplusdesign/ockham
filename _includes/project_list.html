@@ -1,0 +1,17 @@
+<div id="masonry" class="row">
+{% for person in site.data.people %}
+ {% if person.hd_role  == 'fellow' %}
+ <div class="col-md-6">
+	<h3>2013-14</h3>
+<div class="well">
+<img src="{{ person.image }}" alt="{{ person.name }}" width="100" class="img-rounded">
+     </div>
+     <div class="col-md-9"><h3>{{ person.name }}<small>{{ person.project_title }}</small></h3>
+<p>{{ person.project_description }}</p>
+     </div>
+   </div>
+ </div>
+
+{% endif %}
+{% endfor %}
+</div>

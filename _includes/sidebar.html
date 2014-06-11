@@ -1,0 +1,29 @@
+<!--right-->
+
+
+
+
+<!-- sidebar column-->
+<div class="col-sm-4">
+    <!-- row-->
+	<div class="row">
+      <div class="col-xs-12">
+
+        <h2>{{ category.name }}</h2>
+		{% for post in site.posts %}
+    		<div class="panel panel-default">
+         		<div class="panel-heading">{{ post.title }}</div>
+         		<div class="panel-body">
+					<p>{{ post.excerpt }}</p>
+			    	<p class="lead"><button class="btn btn-default"><a href="{{ post.url }}">Read More</a></button></p>
+			    	<p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
+			    	<ul class="list-inline"><li>{{ post.date | date_to_string }}</li></ul>
+				</div>
+        	</div>
+		<hr>
+		{% endfor %}
+      </div>
+	</div>
+    <!-- /row-->
+</div>
+<!--/sidebar column-->

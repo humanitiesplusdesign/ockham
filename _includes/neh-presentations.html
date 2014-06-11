@@ -1,0 +1,16 @@
+<div class="row masonry">
+{% for presentation in site.data.presentations %}
+ {% if presentation.topic  == 'palladio' %}
+ <div class="col-md-6">
+    <div class="well">
+     <div class="col-md-3">
+       <img src="{{site.url}}{{ presentation.image }}" alt="{{ person.name }}" height="100" class="img-rounded">
+     </div>
+     <div class="col-md-9"><strong>{{ presentation.date }} <em>{{ presentation.event }}</em> <br/><small>{{ presentation.host }}</small></strong>
+ <p>{{ presentation.presenters | join: ", " }}</p>
+     </div>
+   </div>
+  </div>
+{% endif %}
+{% endfor %}
+</div>

@@ -1,0 +1,15 @@
+% if page.comments %
+<div id="comments">
+ <div id="disqus_thread"></div>
+    <script type="text/javascript">
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + '{{ site.disqus }}' + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+</div>
+% end if %
