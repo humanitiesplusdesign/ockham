@@ -59,6 +59,15 @@ Ockham does not use plugins. It can be run as gh-pages.
 
 ## Deploying
 
+Ockham can be deployed in one of two ways:
+
+* `rsync`: Using rsync allows you to use plugins that are included with 
+Ockham. The site is generated locally, then using `rake deploy` you can send 
+the files to your server using `rsync`. 
+* `Github pages`: If you are using Github pages to host Ockham, you will be 
+unable to use the included plugins. Github Pages only allows certain plugins 
+to run within their system, and you will be limited to only those plugins. 
+
 ## Requirements
 
 * Ruby >= 1.9.2
