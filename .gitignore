@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 .DS_Store
 _site
 _site/*
+=======
+# Directories
+_site
+>>>>>>> FETCH_HEAD
