@@ -1,13 +1,28 @@
-# tags should correspond to page img-tag in page yml
-# directory corresponds to how the image is used in the site
+# 'funded' corresponds to funded lab/project
+# if there is a logo image, add the uri
 # it also corresponds to the directory name under the site img-url
 # it could be banner, headshot, thumbnail, post-image
 
-- title: railroads
-  filename: railroads.png
-  directory: banner
-  caption: "Unknown"
-  credit: ""
-  alt-txt: "Railroads"
-  tag: railroads
+- name: "Andrew W. Mellon Foundation"
+  shortname: mellon
+  directory: 
+  logo: 
+  funded: Crowdsourcing
 
+- name: "National Endowment for the Humanities"
+  shortname: neh
+  directory: 
+  logo: http://www.neh.gov/files/neh_logo_horizontal_rgb.jpg
+  tag: "Networks in History"
+
+- name: "Stanford Humanities Center"
+  shortname: shc
+  directory: 
+  logo: http://www.stanford.edu/dept/SHC/cgi-bin/newsletter/files/SHC73_high.gif
+  funded: "Mapping the Republic of Letters"
+  
+- name: "Stanford University Libraries"
+  shortname: library
+  directory: 
+  logo: http://library.stanford.edu/sites/all/themes/sulair_framework/logo.png
+  funded: "Mapping the Republic of Letters"

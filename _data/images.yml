@@ -1,7 +1,5 @@
 # tags should correspond to page img-tag in page yml
-# directory corresponds to how the image is used in the site
-# it also corresponds to the directory name under the site img-url
-# it could be banner, headshot, thumbnail, post-image
+
 
 - title: railroads
   filename: railroads.png
