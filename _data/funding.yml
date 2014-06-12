@@ -5,11 +5,13 @@
 
 - name: "Andrew W. Mellon Foundation"
   shortname: mellon
+  url: http://www.mellon.org/
   directory: 
   logo: 
   funded: Crowdsourcing
 
 - name: "National Endowment for the Humanities"
+  url: http://www.neh.gov
   shortname: neh
   directory: 
   logo: http://www.neh.gov/files/neh_logo_horizontal_rgb.jpg
@@ -17,12 +19,14 @@
 
 - name: "Stanford Humanities Center"
   shortname: shc
+    url: http://shc.stanford.edu
   directory: 
   logo: http://www.stanford.edu/dept/SHC/cgi-bin/newsletter/files/SHC73_high.gif
   funded: "Mapping the Republic of Letters"
   
 - name: "Stanford University Libraries"
   shortname: library
+  url: http://library.stanford.edu
   directory: 
   logo: http://library.stanford.edu/sites/all/themes/sulair_framework/logo.png
   funded: "Mapping the Republic of Letters"
