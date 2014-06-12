@@ -62,7 +62,11 @@ Ockham does not use plugins. It can be run as gh-pages.
 ## Requirements
 
 * Ruby >= 1.9.2
-* Gems: ruby-bibtex
+* Gems:
+  * jekyll-scholar
+  * rake
+  * stringex
+  * jekyll
 
 ## About
 
