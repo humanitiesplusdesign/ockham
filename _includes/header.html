@@ -11,17 +11,21 @@
                   {% for link in site.links %}
                   <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="{{ site.url }}{{ link.url }}" itemprop="url"><span itemprop="name">{{ link.title }}</span></a></li>
                   {% endfor %}
+                  {% if site.projects %}
                   <li class="dropdown">
                      <a href="{{ site.url }}/projects/" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
                      <ul class="dropdown-menu">
-                        {% for project in site.projects %}
+=                        {% for project in site.projects %}
                         <li><a href="{{ site.url }}/{{ project.url }}" itemprop="url">
                             {{ project.title }}
                             </a>
                         </li>
                         {% endfor %}
                      </ul>
+                  {% endif %}
                      {% if site.twitter != null %}
+                  </li>
+
                   <li>
                   <a href="https://twitter.com/{{ site.twitter }}">
                   <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="10px" y="10px"
