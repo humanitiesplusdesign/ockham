@@ -8,23 +8,24 @@
             <h1><strong><a href="{{ site.url }}">{{ site.name }}</a></strong> <small>{{ site.sub-name }}</small></h1>
             <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav">
-                  {% for link in site.links %}
-                  <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="{{ site.url }}{{ link.url }}" itemprop="url"><span itemprop="name">{{ link.title }}</span></a></li>
-                  {% endfor %}
-                  {% if site.projects %}
-                  <li class="dropdown">
-                     <a href="{{ site.url }}/projects/" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
-                     <ul class="dropdown-menu">
-=                        {% for project in site.projects %}
-                        <li><a href="{{ site.url }}/{{ project.url }}" itemprop="url">
-                            {{ project.title }}
-                            </a>
-                        </li>
-                        {% endfor %}
-                     </ul>
-                  {% endif %}
-                     {% if site.twitter != null %}
-                  </li>
+               {% comment %}
+                 The code below dynamically generates a navigation of pages with
+                 `layout: page` in the YAML front-matter. See readme for usage.
+               {% endcomment %}
+
+               {% assign pages_list = site.pages %}
+               {% for node in pages_list %}
+                 {% if node.title != null %}
+                   {% if node.layout == "page" %}
+                     <li class="sidebar-nav">
+                       <a href="{{ node.url }}">{{ node.title }}</a>
+                     </li>
+                   {% endif %}
+                 {% endif %}
+               {% endfor %}
+               </ul>
+               {% if site.twitter != null %}
+            </li>
 
                   <li>
                   <a href="https://twitter.com/{{ site.twitter }}">
