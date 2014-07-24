@@ -13,15 +13,11 @@
                  `layout: page` in the YAML front-matter. See readme for usage.
                {% endcomment %}
 
-               {% assign pages_list = site.pages %}
-               {% for node in pages_list %}
-                 {% if node.title != null %}
-                   {% if node.layout == "page" %}
-                     <li class="sidebar-nav">
-                       <a href="{{ node.url }}">{{ node.title }}</a>
-                     </li>
-                   {% endif %}
-                 {% endif %}
+               {% for node in site.pages %}
+                {% if node.title != nil and node.url != '/' %}
+                {% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
+                <li><a {% if nodediff != page.url %}class="active" {% endif %}href="{{ node.url }}">{{ node.title }}</a></li>
+                {% endif %}
                {% endfor %}
                </ul>
                {% if site.twitter != null %}

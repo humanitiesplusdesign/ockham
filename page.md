@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Test Page
+title: Projects
 project-name: ockham
 ---
 

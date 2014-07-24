@@ -1,9 +1,18 @@
 ---
 layout: front
-title: Crowdsourcing
-project-name: crowdsourcing
+title: Home
+project-name: ockham
 ---
 
-This project, funded by a grant from the Mellon Foundation, seeks to test ways in which humanities researchers might use different types of crowdsourcing and communitysourcing to further research, and ask questions that would be difficult or impossible to do in more traditional modes of inquiry.  Crowdsourcing, or communitysourcing (different terms for what is broadly the same thing) is, at its most basic, a mode of research, knowledge gathering, and analysis, whereby a researcher engages a community to provide answers to questions or solutions to problems or analysis of material.  There are many different forms of crowdsourcing, but they are all linked by the idea that a large group of people can offer solutions to research questions and data analysis that would be unavailable to the individual or small group.
+Ockham is a platform for publishing collaborative research in the humanities 
+built on top of [Jekyll](http://jekyllrb.com), a static blogging engine.
 
-Because of the possibilities of wider engagement, crowdsourcing offers opportunities to advance humanistic work with and beyond the walls of the academy. We seek to identify and explore the best practices as well as pitfalls of a few crowdsourcing methods. To do so, we are conducting three simultaneous crowdsourcing projects: The Year of the Bay, Living with the Railroads, and 500 Novels.  Each project is engaged with different kinds of crowds, and is asking different questions.  And each, in different ways, is exploring the possibilities of partnering with non-academic media bodies.  In the case of Year of the Bay and Living with the Railroads, our partner is Historypin, “a global community collaborating around history”, which offers users a web based platform where memories (in the form of images and audio/visual materials) can be pinned to a map, locating the material in both time and space.  We are currently running a set of controlled experiments with each of the projects involving academic researchers and non-academic media bodies each defining a particular aspect of crowdsourcing and exploring how it might contribute to academic research, and, concomitantly, to community engagement.
+Beginning with Jekyll, Twitter Bootstrap, and GitHub we are building a static 
+site publishing platform for humanities research. The goal is to keep it 
+simple. No CMS, no elaborate back-end administration, just content managed 
+directly by the scholars who create it.
+
+By design, content and formatting are kept separate, while making the 
+maintaining and updating information easy for individuals without knowledge of 
+(or interest in) HTML. We seek to make this happen by integrating cloud file 
+shares and possibly Gists.
