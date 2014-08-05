@@ -8,21 +8,23 @@
             <h1><strong><a href="{{ site.url }}">{{ site.name }}</a></strong> <small>{{ site.sub-name }}</small></h1>
             <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav">
-               {% comment %}
-                 The code below dynamically generates a navigation of pages with
-                 `layout: page` in the YAML front-matter. See readme for usage.
-               {% endcomment %}
-
-               {% for node in site.pages %}
-                {% if node.title != nil and node.url != '/' %}
-                {% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
-                <li><a {% if nodediff != page.url %}class="active" {% endif %}href="{{ node.url }}">{{ node.title }}</a></li>
-                {% endif %}
-               {% endfor %}
-               </ul>
+                {% for navigation in site.nav %}
+                  {% if navigation.subcategories != null %}
+                    <li class="dropdown">
+                      <a href="{{ site.url }}{{ navigation.url }}" class="dropdown-toggle" data-toggle="dropdown">{{navigation.title}}<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                      {% for subcategory in navigation.subcategories %}
+                        <li><a href="{{ site.url }}{{ subcategory.suburl}}">{{ subcategory.subtitle }}</a></li>
+                      {% endfor %}
+                      </ul>
+                  {% else %}
+                      <li>
+                        <a href="{{ site.url }}{{navigation.url }}">{{ navigation.title }}</a>
+                      </li>
+                  {% endif %}
+                {% endfor %}
+                    </ul>
                {% if site.twitter != null %}
-            </li>
-
                   <li>
                   <a href="https://twitter.com/{{ site.twitter }}">
                   <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="10px" y="10px"

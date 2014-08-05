@@ -20,13 +20,18 @@ twitter:
 img-url:           "https://googledrive.com/host/0B_L3W8DD67iAVUktdHIxN0RnUjA/"
 banner-img-url:    "https://googledrive.com/host/0B_L3W8DD67iAVUktdHIxN0RnUjA/"
 
-links:
+nav:
   - title: Home
     url: /
   - title: About
     url: /about/
   - title: Tools
     url: /tools/
+    subcategories:
+      - subtitle: "Gephi"
+        suburl: "/gephi/"
+      - subtitle: "Palladio"
+        suburl: "/palladio."
   - title: People
     url: /people/
 
